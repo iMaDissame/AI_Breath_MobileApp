@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#CCCCCC</color> <!-- Example gray color -->
+    <color name="getstarted">#C35581</color> <!-- Example primary color -->
+
 </resources>

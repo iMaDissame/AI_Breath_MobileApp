@@ -1,0 +1,86 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/appbg"
+    tools:context=".IntroductionActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="10dp"
+        android:src="@mipmap/applogo"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textViewPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to AI-Breath, the innovative app dedicated to helping users monitor and manage their respiratory health through advanced acoustic analysis. Using just your smartphone's microphone, AI-Breath can detect signs of respiratory conditions such as sleep apnea and asthma by analyzing breathing patterns. Our app provides real-time feedback, actionable insights, and personalized tips to improve your respiratory health. It's designed for ease of use, ensuring that anyone, anywhere, can access reliable health monitoring at their fingertips. Join us on a journey towards healthier breathing and enhanced wellbeing."
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:background="@drawable/textview_border"
+            android:lineSpacingExtra="8dp"
+        android:gravity="start|center_vertical"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <CheckBox
+        android:id="@+id/checkBoxAcceptTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="I accept the terms and conditions"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/buttonGetStarted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="332dp"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/gray"
+        android:enabled="false"
+        android:text="Get Started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.812" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
