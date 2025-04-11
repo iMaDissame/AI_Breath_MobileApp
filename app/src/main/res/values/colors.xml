@@ -4,5 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#CCCCCC</color> <!-- Example gray color -->
     <color name="getstarted">#C35581</color> <!-- Example primary color -->
+    <color name="register_link_color">#FFD700</color> <!-- Gold color -->
 
 </resources>

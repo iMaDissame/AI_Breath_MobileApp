@@ -41,5 +41,6 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation("androidx.cardview:cardview:1.0.0")
+    implementation("com.mysql:mysql-connector-j:8.3.0")
 
 }

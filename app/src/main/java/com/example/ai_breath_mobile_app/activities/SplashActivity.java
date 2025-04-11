@@ -1,4 +1,4 @@
-package com.example.ai_breath_mobile_app;
+package com.example.ai_breath_mobile_app.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.ai_breath_mobile_app.R;
 
 public class SplashActivity extends AppCompatActivity {
 
