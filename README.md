@@ -1,6 +1,7 @@
 # AIBreath - AI-Powered Mobile Healthcare Application
 
-![AIBreath Logo](https://github.com/iMaDissame/AI_Breath_MobileApp/raw/main/app/src/main/res/drawable/logo.png)
+![applogo](https://github.com/user-attachments/assets/d4811c3b-ecbf-44bb-b2b9-4120d9cdf245)
+
 
 ## Overview
 
