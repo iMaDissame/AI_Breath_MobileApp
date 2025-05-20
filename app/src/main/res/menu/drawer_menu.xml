@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_doctor_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/menu_doctor_search"/>
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/menu_chatbot"/>
+    </group>
+
+    <item android:title="Doctor Features">
+        <menu>
+            <item
+                android:id="@+id/nav_pneumonia"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="@string/menu_pneumonia"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_heartbeat"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="@string/menu_heartbeat"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="@string/menu_reports"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/menu_login"/>
+            <item
+                android:id="@+id/nav_signup"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="@string/menu_signup"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="@string/menu_logout"
+                android:visible="false"/>
+        </menu>
+    </item>
+</menu>
